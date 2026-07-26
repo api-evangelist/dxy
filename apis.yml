@@ -1,8 +1,17 @@
 aid: dxy
 name: DXY
-description: 'DXY is a company surfaced as a portfolio company of dcm-ventures and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  DXY (丁香园) is China's leading digital healthcare technology company, founded in
+  2000 in Harbin and headquartered in Hangzhou. It operates a "D+C" dual strategy:
+  a professional physician community and clinical toolset (drug reference "用药助手",
+  clinical case database, medical education, and the "Insight" pharmaceutical data
+  analytics platform) alongside consumer health services under the "丁香医生"
+  (Dingxiang Doctor) brand. DXY also runs the Biomart / 丁香通 life-sciences supplies
+  marketplace. Its Medical Data Open Platform (open.dxy.cn) exposes standardized
+  healthcare data services — newly-approved drugs, drug SKU and drug search, disease
+  search, and hospital/institution search — as REST/JSON APIs under api.dxy.cn for
+  pharmaceutical, medical, and health-tech partners. This profile was surfaced as a
+  portfolio company of dcm-ventures and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/dxy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +19,54 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
-apis: []
+- Healthcare
+- Medical
+- Pharmaceutical
+- Life Sciences
+- Data
+- China
+- Drug Data
+- Open Platform
+image: https://www.dxy.cn/favicon.ico
+apis:
+- name: DXY Medical Data Open Platform
+  description: >-
+    Standardized medical data services from DXY's Open Platform (开放平台) — newly-approved
+    drugs, drug SKU data, drug search, disease search, and hospital/institution search —
+    delivered as REST/JSON endpoints under api.dxy.cn. Access is granted to pharmaceutical,
+    medical, and health-tech partners via the open platform; detailed authentication and
+    onboarding are documented behind partner login. No public OpenAPI/Swagger definition
+    is published.
+  humanURL: https://open.dxy.cn/
+  baseURL: https://api.dxy.cn/open/
+  tags:
+  - Healthcare
+  - Medical Data
+  - Drug Data
+  - Disease Data
+  - Hospital Data
+  properties:
+  - type: Documentation
+    url: https://open.dxy.cn/doc/8103.html
+  - type: APIReference
+    url: https://open.dxy.cn/doc/8103.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +75,22 @@ maintainers:
 common:
 - type: Website
   url: http://www.dxy.cn/
+- type: DeveloperPortal
+  url: https://open.dxy.cn/
+- type: Documentation
+  url: https://open.dxy.cn/doc/8103.html
+- type: APIReference
+  url: https://open.dxy.cn/doc/8103.html
+- type: Support
+  url: http://www.dxy.cn/pages/contact.html
+- type: TermsOfService
+  url: https://3g.dxy.cn/newh5/view/rule/userAgreement
+- type: PrivacyPolicy
+  url: https://3g.dxy.cn/newh5/view/rule/privacyPolicy
+- type: DomainSecurity
+  url: security/dxy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

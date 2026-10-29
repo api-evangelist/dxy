@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DXY is a company surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+DXY (丁香园) is China's leading digital healthcare technology company, founded in 2000 in Harbin and headquartered in Hangzhou. It operates a "D+C" dual strategy: a professional physician community and clinical toolset (drug reference "用药助手", clinical case database, medical education, and the "Insight" pharmaceutical data analytics platform) alongside consumer health services under the "丁香医生" (Dingxiang Doctor) brand. DXY also runs the Biomart / 丁香通 life-sciences supplies marketplace. Its Medical Data Open Platform (open.dxy.cn) exposes standardized healthcare data services — newly-approved drugs, drug SKU and drug search, disease search, and hospital/institution search — as REST/JSON APIs under api.dxy.cn for pharmaceutical, medical, and health-tech partners. This profile was surfaced as a portfolio company of dcm-ventures and enriched by the API Evangelist pipeline.
 
-Backed by: dcm-ventures — http://www.dxy.cn/
+**Areas:** Company · Enterprise · Healthcare · Medical · Pharmaceuticals · Life Sciences · Data · China · Drug Data · Open Platform
+
+## DXY on APIs.io
+
+Everything profiled for DXY is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dxy/](https://apis.io/providers/dxy/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [DXY Medical Data Open Platform](https://apis.io/apis/dxy/dxy-medical-data-open-platform/) — Standardized medical data services from DXY's Open Platform (开放平台) — newly-approved drugs, drug SKU data, drug search, disease search, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dxy Domain Security](https://apis.io/security/dxy/dxy-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.dxy.cn/)
+- [Documentation](https://open.dxy.cn/doc/8103.html)
+- [API reference](https://open.dxy.cn/doc/8103.html)
+- [Support](http://www.dxy.cn/pages/contact.html)
+- [Terms of service](https://3g.dxy.cn/newh5/view/rule/userAgreement)
+- [Privacy policy](https://3g.dxy.cn/newh5/view/rule/privacyPolicy)
+
+## API Evangelist rating
+
+**Kin Score 11.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dxy/](https://apis.io/providers/dxy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DXY: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dxy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
